@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Row, Col } from "antd";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+      <Row>
+        <Col
+          span={6}
+          push={18}
+          style={{ backgroundColor: "black", height: "100vh", color: "white" }}
         >
-          Learn React
-        </a>
-      </header>
+          <iframe
+            id="chat_embed"
+            src="https://www.twitch.tv/embed/casimito/chat?parent=tiagosilva-dev.github.io"
+            height="98%"
+            width="98%"
+          />
+        </Col>
+        <Col
+          span={18}
+          pull={6}
+          style={{ backgroundColor: "red", height: "100vh", color: "white" }}
+        >
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/Qv40j3Zckdc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          />
+        </Col>
+      </Row>
     </div>
   );
 }
