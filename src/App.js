@@ -13,7 +13,7 @@ function App() {
         >
           <iframe
             id="chat_embed"
-            src="https://www.twitch.tv/embed/casimito/chat?parent=tiagosilva-dev.github.io"
+            src="https://www.twitch.tv/embed/axtlol/chat?darkpopout&parent=tiagosilva-dev.github.io"
             height="98%"
             width="98%"
           />
