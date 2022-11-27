@@ -9,7 +9,7 @@ function App() {
         <Col
           span={6}
           push={18}
-          style={{ backgroundColor: "black", height: "100vh", color: "white" }}
+          style={{ backgroundColor: "black", height: "100vh" }}
         >
           <iframe
             id="chat_embed"
@@ -21,7 +21,7 @@ function App() {
         <Col
           span={18}
           pull={6}
-          style={{ backgroundColor: "red", height: "100vh", color: "white" }}
+          style={{ backgroundColor: "black", height: "100vh" }}
         >
           <iframe
             width="100%"
