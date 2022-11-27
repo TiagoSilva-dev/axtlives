@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/axtlives/static/css/main.073c9b0a.css",
-    "main.js": "/axtlives/static/js/main.99bec029.js",
+    "main.js": "/axtlives/static/js/main.449be66f.js",
     "static/js/787.cac903c8.chunk.js": "/axtlives/static/js/787.cac903c8.chunk.js",
-    "static/media/logo.svg": "/axtlives/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/axtlives/index.html",
     "main.073c9b0a.css.map": "/axtlives/static/css/main.073c9b0a.css.map",
-    "main.99bec029.js.map": "/axtlives/static/js/main.99bec029.js.map",
+    "main.449be66f.js.map": "/axtlives/static/js/main.449be66f.js.map",
     "787.cac903c8.chunk.js.map": "/axtlives/static/js/787.cac903c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.99bec029.js"
+    "static/js/main.449be66f.js"
   ]
 }
