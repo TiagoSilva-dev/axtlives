@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
+
 import { Row, Col } from "antd";
+
 import "./App.css";
 
 function App() {
+  useEffect(() => {}, []);
   return (
     <div className="App">
       <Row>
@@ -26,11 +29,10 @@ function App() {
           <iframe
             width="100%"
             height="100%"
-            src="https://www.youtube.com/embed/Qv40j3Zckdc"
+            src="https://www.youtube.com/embed/N05oZ9eYkcE"
             title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           />
         </Col>
       </Row>
